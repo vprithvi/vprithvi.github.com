@@ -1,11 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://vprithvi.github.com/blog/2012/01/12/viva-loctopress/</loc>
+        <lastmod>2012-01-12T11:49:01-05:00</lastmod>
+    </url>
+    <url>
         <loc>http://vprithvi.github.com/blog/archives/</loc>
-        <lastmod>2012-01-12T11:32:24-05:00</lastmod>
+        <lastmod>2012-01-12T11:49:01-05:00</lastmod>
     </url>
     <url>
         <loc>http://vprithvi.github.com/</loc>
-        <lastmod>2012-01-12T11:32:24-05:00</lastmod>
+        <lastmod>2012-01-12T11:49:01-05:00</lastmod>
     </url>
 </urlset>

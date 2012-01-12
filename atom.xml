@@ -4,7 +4,7 @@
   <title><![CDATA[Arbit stuff]]></title>
   <link href="http://vprithvi.github.com/atom.xml" rel="self"/>
   <link href="http://vprithvi.github.com/"/>
-  <updated>2012-01-12T11:38:22-05:00</updated>
+  <updated>2012-01-12T11:49:42-05:00</updated>
   <id>http://vprithvi.github.com/</id>
   <author>
     <name><![CDATA[Prithvi Raj]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Viva L'Octopress]]></title>
+    <link href="http://vprithvi.github.com/blog/2012/01/12/viva-loctopress/"/>
+    <updated>2012-01-12T11:47:00-05:00</updated>
+    <id>http://vprithvi.github.com/blog/2012/01/12/viva-loctopress</id>
+    <content type="html"><![CDATA[<p>First post !</p>
+]]></content>
+  </entry>
   
 </feed>
