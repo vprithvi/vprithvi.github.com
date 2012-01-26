@@ -9,8 +9,9 @@
   <meta name="author" content="">
 
   
-  <meta name="description" content="Blog Archive 2012 Viva L&#8217;Octopress
-Jan 12 2012 Recent Posts Viva L'Octopress Github Repos Status updating... @vprithvi on Github $.domReady( &hellip;">
+  <meta name="description" content="Blog Archive 2012 Moving to a New Domain
+Jan 25 2012 Viva L&#8217;Octopress
+Jan 12 2012 Recent Posts Moving to a New Domain Viva L'Octopress Github &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -92,6 +93,16 @@ Jan 12 2012 Recent Posts Viva L'Octopress Github Repos Status updating... @vprit
 
 <article>
   
+<h1><a href="/blog/2012/01/25/moving-to-a-new-domain/">Moving to a New Domain</a></h1>
+<time datetime="2012-01-25T23:28:00-05:00" pubdate><span class='month'>Jan</span> <span class='day'>25</span> <span class='year'>2012</span></time>
+
+
+</article>
+
+
+
+<article>
+  
 <h1><a href="/blog/2012/01/12/viva-loctopress/">Viva L&#8217;Octopress</a></h1>
 <time datetime="2012-01-12T11:47:00-05:00" pubdate><span class='month'>Jan</span> <span class='day'>12</span> <span class='year'>2012</span></time>
 
@@ -110,6 +121,10 @@ Jan 12 2012 Recent Posts Viva L'Octopress Github Repos Status updating... @vprit
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/01/25/moving-to-a-new-domain/">Moving to a New Domain</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2012/01/12/viva-loctopress/">Viva L'Octopress</a>
@@ -175,6 +190,43 @@ Jan 12 2012 Recent Posts Viva L'Octopress Github Repos Status updating... @vprit
   </h1>
 </section>
 
+
+
+<section class="flickr">
+<h1>Flickr</h1>
+<style type="text/css">
+	#flickrList li{ text-align: center; }
+</style>
+<ul id="flickrList"></ul>
+
+<script lang="Javascript">
+var flickrNickname = "prithvi";
+
+function jsonFlickrApi(rsp) {
+
+	if (rsp.stat != "ok"){
+  		return;
+ 	}
+
+ 	var list = "";
+
+ 	for (var i=0; i < rsp.photos.photo.length; i++) {
+ 	
+  		var photo    = rsp.photos.photo[i];
+  		var imgUrl   = 'http://farm'+ photo.farm +'.static.flickr.com/'+ photo.server +'/'+ photo.id +'_'+ photo.secret +'_m.jpg';
+  		var photoUrl = 'http://www.flickr.com/photos/'+ flickrNickname +'/'+ photo.id;
+
+  		list += '<li id="flickrItem_'+i+'"><a href="'+ photoUrl +'" title="'+ photo.title +'"><img alt="'+ photo.title +'" src="'+ imgUrl +'" /></a></li>';
+ 	}
+ 	
+ 	list += '<li class="flickrLink"><a href="http://www.flickr.com/photos/'+ flickrNickname + '">Flickr page</a></li>';
+ 	
+ 	document.getElementById('flickrList').innerHTML = list;
+}
+</script>
+<script lang="Javascript" src="http://api.flickr.com/services/rest/?format=json&method=flickr.photos.search&user_id=21407846@N00&per_page=5&api_key=1b66080175696bf756428eeb0fd15929"></script>
+
+</section>
 
 
   

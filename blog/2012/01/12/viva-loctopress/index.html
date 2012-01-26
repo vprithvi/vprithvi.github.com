@@ -144,6 +144,8 @@
     <p class="meta">
       
       
+        <a class="basic-alignment right" href="/blog/2012/01/25/moving-to-a-new-domain/" title="next Post: Moving to a New Domain">Moving to a New Domain &raquo;</a>
+      
     </p>
   </footer>
 </article>
@@ -155,6 +157,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/01/25/moving-to-a-new-domain/">Moving to a New Domain</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2012/01/12/viva-loctopress/">Viva L'Octopress</a>
@@ -220,6 +226,43 @@
   </h1>
 </section>
 
+
+
+<section class="flickr">
+<h1>Flickr</h1>
+<style type="text/css">
+	#flickrList li{ text-align: center; }
+</style>
+<ul id="flickrList"></ul>
+
+<script lang="Javascript">
+var flickrNickname = "prithvi";
+
+function jsonFlickrApi(rsp) {
+
+	if (rsp.stat != "ok"){
+  		return;
+ 	}
+
+ 	var list = "";
+
+ 	for (var i=0; i < rsp.photos.photo.length; i++) {
+ 	
+  		var photo    = rsp.photos.photo[i];
+  		var imgUrl   = 'http://farm'+ photo.farm +'.static.flickr.com/'+ photo.server +'/'+ photo.id +'_'+ photo.secret +'_m.jpg';
+  		var photoUrl = 'http://www.flickr.com/photos/'+ flickrNickname +'/'+ photo.id;
+
+  		list += '<li id="flickrItem_'+i+'"><a href="'+ photoUrl +'" title="'+ photo.title +'"><img alt="'+ photo.title +'" src="'+ imgUrl +'" /></a></li>';
+ 	}
+ 	
+ 	list += '<li class="flickrLink"><a href="http://www.flickr.com/photos/'+ flickrNickname + '">Flickr page</a></li>';
+ 	
+ 	document.getElementById('flickrList').innerHTML = list;
+}
+</script>
+<script lang="Javascript" src="http://api.flickr.com/services/rest/?format=json&method=flickr.photos.search&user_id=21407846@N00&per_page=5&api_key=1b66080175696bf756428eeb0fd15929"></script>
+
+</section>
 
 
   
