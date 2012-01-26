@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Arbit stuff]]></title>
+  <title><![CDATA[Prithvi Raj]]></title>
   <link href="http://vprithvi.github.com/atom.xml" rel="self"/>
   <link href="http://vprithvi.github.com/"/>
-  <updated>2012-01-12T11:49:42-05:00</updated>
+  <updated>2012-01-25T19:19:12-05:00</updated>
   <id>http://vprithvi.github.com/</id>
   <author>
-    <name><![CDATA[Prithvi Raj]]></name>
+    <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
