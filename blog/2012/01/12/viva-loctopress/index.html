@@ -50,7 +50,7 @@
   <header role="banner"><hgroup>
   <h1><a href="/">Prithvi Raj</a></h1>
   
-    <h2>University of Florida</h2>
+    <h2>Computer Engineering Student</h2>
   
 </hgroup>
 
@@ -68,7 +68,6 @@
 </form>
   
 <ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
   <li><a href="/resume">Resume</a><li>
 </ul>
@@ -154,6 +153,10 @@
 <aside class="sidebar">
   
     <section>
+  <h1>About Me</h1>
+  <p>Grad student at <a href="http://ufl.edu">University of Florida</a> at Gainesville, Florida</p>
+</section>
+<section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
@@ -221,43 +224,6 @@
   </h1>
 </section>
 
-
-
-<section class="flickr">
-<h1>Flickr</h1>
-<style type="text/css">
-	#flickrList li{ text-align: center; }
-</style>
-<ul id="flickrList"></ul>
-
-<script lang="Javascript">
-var flickrNickname = "forbiddendreams";
-
-function jsonFlickrApi(rsp) {
-
-	if (rsp.stat != "ok"){
-  		return;
- 	}
-
- 	var list = "";
-
- 	for (var i=0; i < rsp.photos.photo.length; i++) {
- 	
-  		var photo    = rsp.photos.photo[i];
-  		var imgUrl   = 'http://farm'+ photo.farm +'.static.flickr.com/'+ photo.server +'/'+ photo.id +'_'+ photo.secret +'_m.jpg';
-  		var photoUrl = 'http://www.flickr.com/photos/'+ flickrNickname +'/'+ photo.id;
-
-  		list += '<li id="flickrItem_'+i+'"><a href="'+ photoUrl +'" title="'+ photo.title +'"><img alt="'+ photo.title +'" src="'+ imgUrl +'" /></a></li>';
- 	}
- 	
- 	list += '<li class="flickrLink"><a href="http://www.flickr.com/photos/'+ flickrNickname + '">Flickr page</a></li>';
- 	
- 	document.getElementById('flickrList').innerHTML = list;
-}
-</script>
-<script lang="Javascript" src="http://api.flickr.com/services/rest/?format=json&method=flickr.photos.search&user_id=21407846@N00&per_page=5&api_key=1b66080175696bf756428eeb0fd15929"></script>
-
-</section>
 
 
   
