@@ -14,6 +14,14 @@ $footer-bg: #ccc !default;
 $footer-bg-front: image-url('noise.png');
 $footer-bg-back: linear-gradient(lighten($footer-bg, 8), $footer-bg, darken($footer-bg, 11));
 
+$main-bg: #f8f8f8 ;
+$page-bg: #252525 ;
+$article-border: #eeeeee ;
+
+
+$text-color: #222 ;
+$text-color-light: #aaa ;
+$type-border: #ddd ;
 
 /* To use the light Solarized highlighting theme uncomment the following line */
 //$solarized: light;
