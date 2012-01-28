@@ -6,4 +6,4 @@ comments: false
 sharing: true
 footer: true
 ---
-My Curriculum Vitae can be downloaded by clicking [here](./resume/cv.pdf).
+My Curriculum Vitae can be downloaded by clicking [here](./cv.pdf).
