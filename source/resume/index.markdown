@@ -7,8 +7,8 @@ sharing: true
 footer: true
 ---
 
-  
-My Curriculum Vitae can be downloaded by clicking [here](./cv.pdf).
+
+My Curriculum Vitae can be downloaded by clicking [here](./prithvi_cv.pdf).
 
 ## Contact
 
@@ -17,10 +17,10 @@ My Curriculum Vitae can be downloaded by clicking [here](./cv.pdf).
 
 ## Education
 
-University of Florida, Gainesville, FL, USA  
-GPA: 3.62/4  
-Thesis Topic: Mobile news authoring, and publishing  
-Adviser: Professor Abdelsalam Helal  
+University of Florida, Gainesville, FL, USA
+GPA: 3.62/4
+Thesis Topic: Mobile news authoring, and publishing
+Adviser: Professor Abdelsalam Helal
 Area of Interest: Mobile computing, and Social Networking
 
 ## Professional Experience
@@ -41,7 +41,7 @@ Area of Interest: Mobile computing, and Social Networking
 ###University of Florida, Gainesville, FL USA
 ####Large Scale Data Analysis
 * SAMwise: Providing City Trotting Recommendations
-	* Compared different topic modeling toolkits, and feedback mechanisms.    
+	* Compared different topic modeling toolkits, and feedback mechanisms.
 
 ####Mobile Networking
 * PRIDE: PRivacy preserving Intelligent riDEsharing.
